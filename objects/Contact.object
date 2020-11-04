@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Industry_Field__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Industry)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EXPIRED Industry</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>EXPIRED Industry_old</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Banking</fullName>
+                    <default>false</default>
+                    <label>Banking</label>
+                </value>
+                <value>
+                    <fullName>Credit Union</fullName>
+                    <default>false</default>
+                    <label>Credit Union</label>
+                </value>
+                <value>
+                    <fullName>Securities Dealer/Investment Firm</fullName>
+                    <default>false</default>
+                    <label>Securities Dealer/Investment Firm</label>
+                </value>
+                <value>
+                    <fullName>Government Enforcement</fullName>
+                    <default>false</default>
+                    <label>Government Enforcement</label>
+                </value>
+                <value>
+                    <fullName>Government Regulatory</fullName>
+                    <default>false</default>
+                    <label>Government Regulatory</label>
+                </value>
+                <value>
+                    <fullName>Accounting Firm</fullName>
+                    <default>false</default>
+                    <label>Accounting Firm</label>
+                </value>
+                <value>
+                    <fullName>Law Firm</fullName>
+                    <default>false</default>
+                    <label>Law Firm</label>
+                </value>
+                <value>
+                    <fullName>Luxury Retail (jeweler, auto dealer)</fullName>
+                    <default>false</default>
+                    <label>Luxury Retail (jeweler, auto dealer)</label>
+                </value>
+                <value>
+                    <fullName>Consultant/Vendor</fullName>
+                    <default>false</default>
+                    <label>Consultant/Vendor</label>
+                </value>
+                <value>
+                    <fullName>Insurance</fullName>
+                    <default>false</default>
+                    <label>Insurance</label>
+                </value>
+                <value>
+                    <fullName>MSB</fullName>
+                    <default>false</default>
+                    <label>MSB</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Other_Email_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EXPIRED Is Other Email Primary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Work_Email_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EXPIRED Is Work Email Primary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

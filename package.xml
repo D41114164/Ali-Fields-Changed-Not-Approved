@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.Industry__c</members>
+        <members>Account.Is_Other_Email_Primary__c</members>
+        <members>Account.Is_Personal_Billing__c</members>
+        <members>Account.Is_Personal_Shipping__c</members>
+        <members>Account.Is_Work_Billing__c</members>
+        <members>Account.Is_Work_Email_Primary__c</members>
+        <members>Account.Is_Work_Shipping__c</members>
+        <members>Account.Other_Designations__c</members>
+        <members>Account.Title__c</members>
+        <members>Account.Total_Credits__c</members>
+        <members>Contact.Industry_Field__c</members>
+        <members>Contact.Industry__c</members>
+        <members>Contact.Is_Other_Email_Primary__c</members>
+        <members>Contact.Is_Work_Email_Primary__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CountrySettings.BN</members>
+        <members>CountrySettings.BZ</members>
+        <members>CountrySettings.CK</members>
+        <members>CountrySettings.DO</members>
+        <members>CountrySettings.HM</members>
+        <members>CountrySettings.SR</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>49.0</version>
+</Package>
