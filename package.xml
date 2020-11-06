@@ -24,6 +24,7 @@
         <members>CountrySettings.DO</members>
         <members>CountrySettings.HM</members>
         <members>CountrySettings.SR</members>
+        <members>CountrySettings.CX</members>
         <name>CustomMetadata</name>
     </types>
     <version>49.0</version>
